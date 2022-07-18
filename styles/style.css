@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.diapositiva {
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    background-image: url('../resources/Diapositiva1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.nombre {
+    position: absolute;
+    margin-top: 41px;
+    /* background-color: rgba(255, 0, 0, 50%); */
+    height: 45px;
+    width: 805px;
+    font-size: 160%;
+}
+
+.nombre p {
+    text-align: left;
+    font-family: 'Avenir LT Std';
+    max-width: 100%;
+    padding: 5px;
+    padding-top: 12px;
+    color: white;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+.lugar {
+    position: absolute;
+    margin-top: 85px;
+    /* background-color: rgba(0, 255, 0, 50%); */
+    height: 33px;
+    width: 638px;
+    font-size: 160%;
+}
+
+.lugar p {
+    text-align: left;
+    font-family: 'Calibri';
+    max-width: 100%;
+    padding-left: 5px;
+    color: white;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+.contratista {
+    position: absolute;
+    margin-top: 116px;
+    /* background-color: rgba(0, 255, 0, 50%); */
+    height: 33px;
+    width: 638px;
+    font-size: 160%;
+}
+
+.contratista p {
+    text-align: left;
+    font-family: 'Calibri';
+    max-width: 100%;
+    padding-left: 5px;
+    color: rgb(34, 41, 83);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+.mapa {
+    position: absolute;
+    background-color: rgba(255, 0, 255, 50%);
+    height: 400px;
+    width: 716px;
+    margin-top: 155px;
+    margin-left: 365px;
+}
+
+.mapa img {
+    height: 100%;
+    width: 100%;
+}
+
+.antes {
+    position: absolute;
+    background-color: rgba(250, 250, 0, 0.5);
+    height: 204px;
+    width: 354px;
+    margin-top: 565px;
+    margin-left: 365px;
+}
+
+.antes img {
+    height: 100%;
+    width: 100%;
+}
+
+.despues {
+    position: absolute;
+    background-color: rgba(250, 250, 0, 0.5);
+    height: 204px;
+    width: 354px;
+    margin-top: 565px;
+    margin-left: 726px;
+}
+
+.despues img {
+    height: 100%;
+    width: 100%;
+}
+
+.sobre {
+    margin: 0;
+    padding: 0;
+    max-height: 100vh;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../resources/sobre_imagenes.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.alcances {
+    position: absolute;
+    margin-top: 153px;
+    /* background-color: rgba(0, 255, 0, 50%); */
+    height: 400px;
+    width: 345px;
+    font-size: 160%;
+    font-family: 'Avenir LT Std';
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.alcance {
+    /* background-color: rgba(255, 60, 100, 50%); */
+    height: fit-content;
+    width: calc(100% - 20px);
+    font-weight: 200;
+    font-size: 90%;
+}
+
+.avance {
+    position: absolute;
+    /* background-color: rgba(255, 0, 0, 50%); */
+    height: 64px;
+    width: 90px;
+    margin-top: 411px;
+    margin-left: 775px;
+    font-size: 200%;
+    font-family: 'Avenir LT Std';
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inversion {
+    position: absolute;
+    /* background-color: rgba(255, 0, 0, 50%); */
+    height: 64px;
+    width: 90px;
+    margin-top: 475px;
+    margin-left: 776px;
+    font-size: 182%;
+    font-family: 'Avenir LT Std';
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bene {
+    position: absolute;
+    /* background-color: rgba(255, 0, 0, 50%); */
+    height: 64px;
+    width: 90px;
+    margin-top: 540px;
+    margin-left: 775px;
+    font-size: 100%;
+    font-family: 'Avenir LT Std';
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inicio {
+    position: absolute;
+    /* background-color: rgba(255, 0, 0, 50%); */
+    height: 33px;
+    width: 95px;
+    margin-top: 695px;
+    margin-left: 16px;
+    font-size: 118%;
+    font-family: 'Avenir LT Std';
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.termino {
+    position: absolute;
+    /* background-color: rgba(255, 0, 0, 50%); */
+    height: 33px;
+    width: 95px;
+    margin-top: 728px;
+    margin-left: 16px;
+    font-size: 118%;
+    font-family: 'Avenir LT Std';
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
