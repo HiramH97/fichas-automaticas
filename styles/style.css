@@ -21,6 +21,7 @@
     height: 45px;
     width: 805px;
     font-size: 140%;
+    font-weight: bold;
 }
 
 .nombre p {
@@ -42,7 +43,7 @@
     /* background-color: rgba(0, 255, 0, 50%); */
     height: 33px;
     width: 638px;
-    font-size: 120%;
+    font-size: 110%;
 }
 
 .lugar p {
