@@ -20,7 +20,7 @@
     /* background-color: rgba(255, 0, 0, 50%); */
     height: 45px;
     width: 805px;
-    font-size: 160%;
+    font-size: 140%;
 }
 
 .nombre p {
@@ -42,7 +42,7 @@
     /* background-color: rgba(0, 255, 0, 50%); */
     height: 33px;
     width: 638px;
-    font-size: 160%;
+    font-size: 120%;
 }
 
 .lugar p {
@@ -63,7 +63,7 @@
     /* background-color: rgba(0, 255, 0, 50%); */
     height: 33px;
     width: 638px;
-    font-size: 160%;
+    font-size: 120%;
 }
 
 .contratista p {
