@@ -20,7 +20,7 @@
     /* background-color: rgba(255, 0, 0, 50%); */
     height: 45px;
     width: 805px;
-    font-size: 140%;
+    font-size: 120%;
     font-weight: bold;
 }
 
@@ -152,7 +152,7 @@
     height: fit-content;
     width: calc(100% - 20px);
     font-weight: 200;
-    font-size: 70%;
+    font-size: 60%;
     font-weight: bold;
 }
 
